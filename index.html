@@ -19,7 +19,11 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="https://shrikant9907.github.io/webstyle/webstyle.css" />
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- script
     ================================================== -->
@@ -32,9 +36,10 @@
 
 </head>
 <style>
-/*Banner 
+Banner 
 .banner {
-	margin-top: 80px;
+	margin-top: 150px;
+    width:1000px;
 
 	
 }
@@ -44,7 +49,7 @@
     }
  }
 
- .text-block {
+ /*.text-block {
   position: absolute;
   bottom: 200px;
   right: 569px;
@@ -77,25 +82,17 @@
   padding: 20px;
 }*/
 
-.bg {
-  /* The image used */
-  background-image: url("images/banner6.jpeg");
 
-  /* Full height */
- height:50%;
-
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  margin-top:80px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.responsive {
-  width: 100%;
+.banner {
   height: auto;
+  justify-content: inherit;
+  align-items: inherit;
 }
 
+.photo img {
+  width: 100%;
+  display: block;
+}
 
 </style>
 
@@ -206,7 +203,17 @@
                 <p style="font-size:30px">We Write Codes</p>
               </div>
           </div>-->
-          <img src="images/banner6.jpeg" alt="Nature" class="responsive" width="600" height="600">
+          <div style="margin-top:50px" class='section banner'>
+          <div class='photo'>
+            <img src='images/banner5.png'
+                 srcset='images/banner5.png 1200w,
+                         images/banner10.png 1000w'
+                 sizes='(min-width: 960px) 960px,
+                        100vw' />
+                        </div>
+                    </div>
+                  
+
 
 
   <!-- featured 
